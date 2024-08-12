@@ -125,7 +125,6 @@ export const CurrentDocumentComponent: React.FC = () => {
 			companySigDate: sigDate.companySigDate.toISOString(),
 			employeeSigDate: sigDate.employeeSigDate.toISOString(),
 		};
-		console.log(document);
 
 		if (currentDocument) {
 			dispatch(editDocumentRequest(currentDocument.id, document));

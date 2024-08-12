@@ -31,7 +31,7 @@ export const DocumentsComponent: React.FC = () => {
 				alignItems: 'center',
 			}}
 		>
-			{error ? (
+			{error || !documents ? (
 				<Typography
 					sx={{
 						fontSize: 12,
