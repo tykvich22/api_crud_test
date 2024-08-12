@@ -91,7 +91,9 @@ export const Home: React.FC = () => {
 					>
 						<Avatar
 							alt="user"
-							src={`/assets/images/${Math.floor(Math.random() * 3) + 1}.webp`}
+							src={`/api_crud_test/assets/images/${
+								Math.floor(Math.random() * 3) + 1
+							}.webp`}
 							sx={{
 								width: 56,
 								height: 56,
